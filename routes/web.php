@@ -22,5 +22,11 @@ Route::resource('country', 'CountryController');
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/admin', 'HomeController@index')->name('home');
 Route::get('/search', 'SuperTravelController@search');
+
+Route::get('/', 'FrontendController@index');
+
+Route::resource('tour', 'FrontendController');
+
+Route::resource('countryTour', 'FrontendCountryController');
