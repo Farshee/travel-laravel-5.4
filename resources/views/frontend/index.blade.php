@@ -205,15 +205,15 @@ veritatis ea culpa.
 
 <li class="col-md-6">
 <figure>
-<a href="albumdetails/1/sylhet%2btour.html">
+<a href="#">
 <img src="/frontend/images/albums/1468586973.jpg" alt="">
 </a>
 <figcaption>
-<a href="albumdetails/1/sylhet%2btour.html" class="fa fa-plus"></a>
+<a href="#" class="fa fa-plus"></a>
 </figcaption>
 </figure>
 <div class="kd-galleryinfo">
-<h5><a href="albumdetails/1/sylhet%2btour.html">Sylhet Tour</a></h5>
+<h5><a href="#">Sylhet Tour</a></h5>
 <span>Sylhet is a major city that lies on the banks of Surma River in north-east Bangladesh.</span>
 </div>
 </li>
@@ -221,11 +221,11 @@ veritatis ea culpa.
 
 <li class="col-md-6">
 <figure>
-<a href="albumdetails/2/coxs%2bbazar%2btour.html">
+<a href="#">
 <img src="/frontend/images/albums/1468587221.jpg" alt="">
 </a>
 <figcaption>
-<a href="albumdetails/2/coxs%2bbazar%2btour.html" class="fa fa-plus"></a>
+<a href="#l" class="fa fa-plus"></a>
 </figcaption>
 </figure>
 <div class="kd-galleryinfo">

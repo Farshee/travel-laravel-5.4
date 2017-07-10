@@ -29,12 +29,12 @@
 
 
 <li>
-		<i class="fa fa-phone"></i> Phone: 8801716441700
+		<i class="fa fa-phone"></i> Phone: 01571724363
 </li>
 
 <li>
 		<i class="fa fa-envelope-o"></i>
-		<a href="mailto:admin@thesoftking.com">Email: admin@thesoftking.com</a>
+		<a href="mailto:info@farshee.com">Email: info@farshee.com</a>
 </li>
 
 </ul>
@@ -89,42 +89,19 @@
 <li><a href="/">Home</a></li>
 
 
+@foreach($country as $Countrys)
 <li>
-	<a href="/countryTour/1">
-		<span>Bangladesh</span>
+	<a href="/countryTour/{{$Countrys->id}}">
+		<span>{{$Countrys->name}}</span>
 	</a>
 </li>
+@endforeach
 
 
-<li>
-	<a href="/countryTour/2">
-		<span>INDIA</span>
-	</a>
-</li>
 
 
-<li>
-	<a href="category/3/nepal.html">
-		<span>Nepal</span>
-	</a>
-</li>
 
-
-<li>
-	<a href="category/4/singapore.html">
-		<span>Singapore</span>
-	</a>
-</li>
-
-
-<li>
-	<a href="category/5/other.html">
-		<span>OTHER</span>
-	</a>
-</li>
-
-
-<li><a href="contact.html">Contact US</a></li>
+<li><a href="#">Contact US</a></li>
 
 
 </ul>
@@ -193,13 +170,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quis, ipsam. Maio
           <div class="widget col-md-3 kd-userinfo-widget">
             <div class="kd-widget-title"><h2>Contact</h2></div>
             <ul>
-                <li><i class="fa fa-map-marker"></i> Level 4, Shyamoli Square, Dhaka - 1207</li>
-                <li><i class="fa fa-phone-square"></i> 8801716441700</li>
-                <li><i class="fa fa-envelope"></i> admin@thesoftking.com</li>
+                <li><i class="fa fa-map-marker"></i> Mirpur-2, Dhaka - 1216</li>
+                <li><i class="fa fa-phone-square"></i> 0157124363</li>
+                <li><i class="fa fa-envelope"></i> info@farshee.com</li>
               </ul>
           </div>
 
-           <center><div class="col-md-6"><p>© Copyright 2016  All Rights Reserved by Travo Travel &amp; Tourism  </p></div><center>
+           <center><div class="col-md-6"><p>© Copyright 2017  All Rights Reserved by Farshee IT Soltuion  </p></div><center>
 
         </div>
       </div>

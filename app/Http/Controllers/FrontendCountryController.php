@@ -6,21 +6,7 @@ use Illuminate\Http\Request;
 use App\Country;
 class FrontendCountryController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-      
-    }
-
-    public function main()
-    {
-         $Country=Country::all();
-		return view('frontend\countryTour',compact('Country'));
-    }
+    
 
    
     /**
